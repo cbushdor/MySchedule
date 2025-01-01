@@ -391,21 +391,47 @@ th.gantt-day-header {
               <span>1</span>
             </td>
             <td>
-              <a name="gantt-1" style="white-space: nowrap; margin-left: 0px;" id="gantt-1">
+              <a name="task-1" style="white-space: nowrap; font-weight: bold; margin-left: 0px;" id="task-1">
                 <span>Course</span>
               </a>
             </td>
             <td>
-              <span>4h </span>
+              <span style="white-space: nowrap; font-weight: bold;">2h </span>
             </td>
           </tr>
           <tr class="even">
             <td>
+              <span>1.1</span>
+            </td>
+            <td>
+              <a name="gantt-2" style="white-space: nowrap; margin-left: 18px;" id="gantt-2">
+                <span>-</span>
+              </a>
+            </td>
+            <td>
+              <span>2h </span>
+            </td>
+          </tr>
+          <tr class="odd">
+            <td>
               <span>2</span>
             </td>
             <td>
-              <a name="gantt-2" style="white-space: nowrap; margin-left: 0px;" id="gantt-2">
+              <a name="task-3" style="white-space: nowrap; font-weight: bold; margin-left: 0px;" id="task-3">
                 <span>Association</span>
+              </a>
+            </td>
+            <td>
+              <span style="white-space: nowrap; font-weight: bold;">2h </span>
+            </td>
+          </tr>
+          <tr class="even">
+            <td>
+              <span>2.1</span>
+            </td>
+            <td>
+              <a name="gantt-4" style="white-space: nowrap; margin-left: 18px;" id="gantt-4">
+                <span>-</span>
               </a>
             </td>
             <td>
@@ -459,19 +485,33 @@ th.gantt-day-header {
           </tr>
           <tr class="odd">
             <td colspan="31">
-              <div style="width: 601px; white-space: nowrap;">
-                <div class="gantt-empty-begin" style="width: 6px;"></div>
-                <div class="gantt-complete-notdone" style="width: 1px;"></div>
-                <div class="gantt-empty-end"></div>
-                <div class="gantt-resources">ppi, ass, pass, rds</div>
-              </div>
+              <div style="width: 601px; white-space: nowrap;"></div>
             </td>
           </tr>
           <tr class="even">
             <td colspan="31">
               <div style="width: 601px; white-space: nowrap;">
                 <div class="gantt-empty-begin" style="width: 6px;"></div>
-                <div class="gantt-complete-notdone" style="width: 2px;"></div>
+                <div class="gantt-complete-notdone" style="width: 2px;">
+                  <div class="gantt-complete-done" style="width: 2px;"></div>
+                </div>
+                <div class="gantt-empty-end"></div>
+                <div class="gantt-resources"></div>
+              </div>
+            </td>
+          </tr>
+          <tr class="odd">
+            <td colspan="31">
+              <div style="width: 601px; white-space: nowrap;"></div>
+            </td>
+          </tr>
+          <tr class="even">
+            <td colspan="31">
+              <div style="width: 601px; white-space: nowrap;">
+                <div class="gantt-empty-begin" style="width: 6px;"></div>
+                <div class="gantt-complete-notdone" style="width: 2px;">
+                  <div class="gantt-complete-done" style="width: 2px;"></div>
+                </div>
                 <div class="gantt-empty-end"></div>
                 <div class="gantt-resources"></div>
               </div>
@@ -513,7 +553,7 @@ th.gantt-day-header {
               <span>Assigned to</span>
             </th>
           </tr>
-          <tr class="odd" style="">
+          <tr class="odd" style="&#10;            font-weight: bold;&#10;          ">
             <td>
               <span>1</span>
             </td>
@@ -529,12 +569,9 @@ th.gantt-day-header {
               <span>Jan 1</span>
             </td>
             <td>
-              <span>4h </span>
+              <span>2h </span>
             </td>
-            <td>
-              <span>0%
-              </span>
-            </td>
+            <td></td>
             <td>
               <span></span>
             </td>
@@ -542,11 +579,11 @@ th.gantt-day-header {
           </tr>
           <tr class="even" style="">
             <td>
-              <span>2</span>
+              <span>1.1</span>
             </td>
             <td>
-              <a name="task2" style="margin-left: 0px" id="task2">
-                <span>Association</span>
+              <a name="task2" style="margin-left: 18px" id="task2">
+                <span>-</span>
               </a>
             </td>
             <td>
@@ -559,7 +596,58 @@ th.gantt-day-header {
               <span>2h </span>
             </td>
             <td>
-              <span>0%
+              <span>100%
+              </span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+            <td></td>
+          </tr>
+          <tr class="odd" style="&#10;            font-weight: bold;&#10;          ">
+            <td>
+              <span>2</span>
+            </td>
+            <td>
+              <a name="task3" style="margin-left: 0px" id="task3">
+                <span>Association</span>
+              </a>
+            </td>
+            <td>
+              <span>Jan 1</span>
+            </td>
+            <td>
+              <span>Jan 1</span>
+            </td>
+            <td>
+              <span>2h </span>
+            </td>
+            <td></td>
+            <td>
+              <span></span>
+            </td>
+            <td></td>
+          </tr>
+          <tr class="even" style="">
+            <td>
+              <span>2.1</span>
+            </td>
+            <td>
+              <a name="task4" style="margin-left: 18px" id="task4">
+                <span>-</span>
+              </a>
+            </td>
+            <td>
+              <span>Jan 1</span>
+            </td>
+            <td>
+              <span>Jan 1</span>
+            </td>
+            <td>
+              <span>2h </span>
+            </td>
+            <td>
+              <span>100%
               </span>
             </td>
             <td>
